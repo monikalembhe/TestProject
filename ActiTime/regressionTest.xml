@@ -6,7 +6,7 @@
 <parameter name= "browserName" value= "Chrome"/>
     <classes>
       <class name="testClass.TestClass"/>
-      
+      <class name="testClass.VerifyactiTimeHeader"/>
     </classes>
   </test> <!-- Test -->
 
@@ -14,15 +14,15 @@
 <parameter name= "browserName" value="Firefox"/>
     <classes>
       <class name="testClass.TestClass"/>
-      
+      <class name="testClass.VerifyactiTimeHeader"/>
     </classes>
   </test> <!-- Test -->
 
 <test name="OperaTest">
-<parameter name="browserName" value="OperaTest"/>
+<parameter name="browserName" value="Opera"/>
     <classes>
       <class name="testClass.TestClass"/>
-     
+      <class name="testClass.VerifyactiTimeHeader"/>
     </classes>
 
   </test> <!-- Test1 -->

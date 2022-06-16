@@ -1,6 +1,8 @@
 package testClass;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -35,7 +37,7 @@ public void launchBrowser(String browser) {
 	if (browser.equals("Opera")) {
 		driver=Browser.openOperaBrowser();
 	}
-	//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 }
 	@BeforeClass 
 	public void createPOMObject() {
